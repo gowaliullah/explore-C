@@ -8,13 +8,23 @@
 int data_types(){
     int num1 = 1000;
     float f = 10.9;
-    char ch = "@";
-    char num_cha = "11, number is possible to declare as a char";
+    char ch = '@';
+   
+
+    // format specifier
+
+    printf("%d\n", num1);
+    printf("%f\n", f);
+    printf("%c\n", ch);
+   
+
     return 0;
 }
 
 int main()
 {
+
+
     printf("hello world \t --> \n");
     printf("from new Era");
     return 0;
