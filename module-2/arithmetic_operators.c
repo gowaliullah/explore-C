@@ -21,6 +21,9 @@ int main() {
     int quotient = a / b;
     printf("Quotient: %d\n", quotient);
 
+    // Modulus
+    int remainder = a % b;
+    printf("Remainder: %d\n", remainder);
 
     return 0;
 }
