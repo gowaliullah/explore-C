@@ -7,6 +7,8 @@ int main()
 
     int first = X / 100;
 
+    int last = X % 10; // get last digit
+
     if ( first % 2 == 0 )
     {
        printf("EVEN");
