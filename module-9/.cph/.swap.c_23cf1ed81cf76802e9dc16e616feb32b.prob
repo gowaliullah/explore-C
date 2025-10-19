@@ -1,0 +1,1 @@
+{"name":"Local: swap","url":"d:\\waliullah\\explore-C\\module-9\\swap.c","tests":[{"id":1760843315333,"input":"10\n20","output":"20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\waliullah\\explore-C\\module-9\\swap.c","group":"local","local":true}
