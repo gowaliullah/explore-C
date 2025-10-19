@@ -1,0 +1,1 @@
+{"name":"Local: insert","url":"d:\\waliullah\\explore-C\\module-9\\insert.c","tests":[{"id":1760848605870,"input":"5\n10 30 40 50 60\n1 20","output":"10 20 30 40 50 60"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\waliullah\\explore-C\\module-9\\insert.c","group":"local","local":true}
