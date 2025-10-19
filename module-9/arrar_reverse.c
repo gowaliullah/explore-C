@@ -13,6 +13,16 @@ int main()
         scanf("%d", &a[i]);
     }
 
+    //  for loop
+
+    for (int i = 0, j = n - 1; i < j; i++, j--)
+    {
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }
+
+    //  while loop
     int first = 0;
     int last = n - 1;
 
