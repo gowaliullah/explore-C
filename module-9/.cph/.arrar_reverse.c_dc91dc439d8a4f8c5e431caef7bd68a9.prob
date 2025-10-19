@@ -1,0 +1,1 @@
+{"name":"Local: arrar_reverse","url":"d:\\waliullah\\explore-C\\module-9\\arrar_reverse.c","tests":[{"id":1760845066306,"input":"5\n10 20 30 40 50","output":"50 40 30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\waliullah\\explore-C\\module-9\\arrar_reverse.c","group":"local","local":true}
