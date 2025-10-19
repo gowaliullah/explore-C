@@ -14,24 +14,16 @@ int main()
     int inx;
     scanf("%d", &inx);
 
-    for (int i = 0; i < n; i++)
+    for (int i = inx; i < (n - 1); i++)
     {
-
-        if (i >= inx )
-        {
-            if (i != n-1)
-            {
-                a[i] = a[i + 1];
-            }
-            
-        }
+        a[i] = a[i + 1];
     }
+    // n--;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < (n - 1); i++)
     {
         printf("%d ", a[i]);
     }
-    
 
     return 0;
 }
