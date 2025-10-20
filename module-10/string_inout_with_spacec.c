@@ -5,13 +5,15 @@ int main()
 
      // at least 1 ghor base nite hobe
 
-    char s[10];
+    char s[50];
 
-    scanf("%s", &s);
-    scanf("%s", s);
+    gets(s); 
+
+    fgets(s, 20, stdin); // count null and space
 
 
-    scanf("%c", s[7]);
+
+
     scanf("%d", s[5]);
      
 
