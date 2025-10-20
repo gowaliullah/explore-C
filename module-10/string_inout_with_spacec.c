@@ -13,7 +13,11 @@ int main()
 
     // with initialize
     char s2[6] = {"H", "E", "L", "L", "O", "\n"};
-    printf("%d", s2);     
+    printf("%d", s2);    
+    
+    // super power
+    char s3[20] = "Hello World";
+    printf("%d", s3); 
 
     return 0;
 }
