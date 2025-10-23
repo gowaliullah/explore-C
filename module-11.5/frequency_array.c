@@ -12,14 +12,19 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    int cnt0 = 0;
+
+    int fre[6] = {0};
+
     for (int i = 0; i < n; i++)
     {
-        if (a[i] == 0)
-        {
-                cnt0++;
-        }
+        int val = a[i];
+        fre[val]++;
     }
-    printf("%d -> %d", 0, cnt0); 
+
+    for (int i = 0; i < 6; i++)
+    {
+        printf("%d -> %d\n", i, fre[i]);
+    }
+
     return 0;
-}
+} 
