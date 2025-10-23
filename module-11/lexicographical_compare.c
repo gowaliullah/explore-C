@@ -8,7 +8,7 @@ int main()
 
     int i = 0;
 
-    while ("condition")
+    while (1)
     {                       
        if (a[i] == '\0' && b[i] == '\0')
        {
