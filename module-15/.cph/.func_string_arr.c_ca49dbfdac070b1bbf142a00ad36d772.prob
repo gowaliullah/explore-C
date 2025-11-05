@@ -1,0 +1,1 @@
+{"name":"Local: func_string_arr","url":"/home/waliullah/phitron/explore-C/module-15/func_string_arr.c","tests":[{"id":1762345471857,"input":"hello","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/explore-C/module-15/func_string_arr.c","group":"local","local":true}
