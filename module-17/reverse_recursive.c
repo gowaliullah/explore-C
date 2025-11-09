@@ -1,23 +1,19 @@
 #include <stdio.h>
 
+void h(int i)
+{
 
-void h(int i) {
-    if (i > 0)      
+    if (i == 6)
     {
-        printf("%d\n", i);
-        h(i - 1);
+        return;
     }
-}
 
+    h(i + 1);
+    printf("%d\n", i);
+}
 
 int main()
 {
-    
-    int n;
-    scanf("%d", &n);
-
-    h(n);
-
-
+    h(1);
     return 0;
 }
