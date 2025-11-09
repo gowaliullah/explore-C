@@ -4,7 +4,7 @@ void hello(int i)
 {
     printf("%d\n", i);
 
-    if (i != 6)
+    if (i != 5)
     {
         hello(i + 1);
     }
@@ -13,7 +13,7 @@ void hello(int i)
 void hello2(int i)
 {
 
-    if (i != 6)
+    if (i != 5)
     {
         printf("%d\n", i);
         hello(i + 1);
@@ -23,12 +23,14 @@ void hello2(int i)
 void hello3(int i)
 {
 
-    if (i == 6)
+    if (i == 5)
     {
         return;
     }
 
     printf("%d\n", i);
+
+    // call the func 
     hello(i + 1);
 }
 
@@ -38,7 +40,7 @@ int main()
     hello(i);
 
     printf("\n");
-    hello2(i);
+    hello2(1);
 
     printf("\n");
     hello3(i);
