@@ -19,6 +19,13 @@ int main()
     {
         printf("This is row matrix");
     }
+    else if (c == 1)
+    {
+        printf("This is column matrix");
+    } else if (c == r)
+    {
+        printf("This is squre matrix");
+    }
     else
     {
         printf("This is not row matrix");

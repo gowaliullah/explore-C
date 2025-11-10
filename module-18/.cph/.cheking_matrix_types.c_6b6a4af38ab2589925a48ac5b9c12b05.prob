@@ -1,0 +1,1 @@
+{"name":"Local: cheking_matrix_types","url":"/home/waliullah/phitron/explore-C/module-18/cheking_matrix_types.c","tests":[{"id":1762752615759,"input":"3 3\n1 4 6\n2 7 3\n3 4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/waliullah/phitron/explore-C/module-18/cheking_matrix_types.c","group":"local","local":true}
